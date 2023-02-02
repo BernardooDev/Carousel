@@ -1,0 +1,39 @@
+.carousel {
+    display: flex;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slide {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .caption {
+    text-align: center;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
